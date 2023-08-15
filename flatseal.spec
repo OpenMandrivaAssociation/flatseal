@@ -4,7 +4,7 @@ Release:        1
 Summary:        Manage Flatpak permissions
 License:        GPL-3.0-or-later
 URL:            https://github.com/tchx84/flatseal
-Source:         %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
+Source:         %{url}/archive/v%{version}/Flatseal-%{version}.tar.gz
 BuildRequires:  meson
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig
