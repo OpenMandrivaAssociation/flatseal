@@ -15,7 +15,15 @@ BuildRequires:  pkgconfig(gjs-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(webkitgtk-6.0)
+
+# Not available
+#BuildRequires: jasmine
+
 BuildArch:      noarch
+
+Requires: %{_lib}webkit2gtk-gir6.0
+Requires: typelib(WebKit)
+Requires: flatpak
 
 %description
 Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
@@ -41,6 +49,4 @@ Flatseal is a graphical utility to review and modify permissions from your Flatp
 %{_datadir}/glib-2.0/schemas/com.github.tchx84.Flatseal.gschema.xml
 %{_datadir}/applications/com.github.tchx84.Flatseal.desktop
 %{_datadir}/%{name}/
-%{_datadir}/%{name}/com.github.tchx84.Flatseal.data.gresource
-%{_datadir}/%{name}/com.github.tchx84.Flatseal.src.gresource
 %{_datadir}/icons/hicolor/*/*/*.svg
