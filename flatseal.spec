@@ -4,13 +4,15 @@ Release:        1
 Summary:        Manage Flatpak permissions
 License:        GPL-3.0-or-later
 URL:            https://github.com/tchx84/flatseal
-Source:         %{url}/archive/v%{version}/Flatseal-%{version}.tar.gz
+Source0:        %{url}/archive/v%{version}/Flatseal-%{version}.tar.gz
+
+BuildRequires:  appstream-util
 BuildRequires:  meson
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(gjs-1.0)
-BuildRequires:  pkgconfig(gtk+-3.0)
-BuildRequires:  pkgconfig(libhandy-1)
+BuildRequires:  pkgconfig(gtk4)
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildArch:      noarch
 
 %description
