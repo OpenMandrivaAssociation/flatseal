@@ -13,6 +13,7 @@ BuildRequires:  pkgconfig
 BuildRequires:  pkgconfig(gjs-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
+BuildRequires:  pkgconfig(webkitgtk-6.0)
 BuildArch:      noarch
 
 %description
