@@ -10,6 +10,7 @@ BuildRequires:  appstream-util
 BuildRequires:  meson
 BuildRequires:  desktop-file-utils
 BuildRequires:  pkgconfig
+BuildRequires:  gjs
 BuildRequires:  pkgconfig(gjs-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
