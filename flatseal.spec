@@ -1,6 +1,6 @@
 Name:           flatseal
 Version:        2.3.0
-Release:        1
+Release:        2
 Summary:        Manage Flatpak permissions
 License:        GPL-3.0-or-later
 URL:            https://github.com/tchx84/flatseal
@@ -25,6 +25,7 @@ BuildArch:      noarch
 Requires: %{_lib}webkit2gtk-gir6.0
 Requires: typelib(WebKit)
 Requires: flatpak
+Requires: gjs
 
 %description
 Flatseal is a graphical utility to review and modify permissions from your Flatpak applications.
