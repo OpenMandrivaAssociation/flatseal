@@ -1,6 +1,6 @@
 Name:           flatseal
 Version:        2.3.0
-Release:        
+Release:        2
 Summary:        Manage Flatpak permissions
 License:        GPL-3.0-or-later
 URL:            https://github.com/tchx84/flatseal
