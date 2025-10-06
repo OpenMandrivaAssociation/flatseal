@@ -48,7 +48,7 @@ Flatseal is a graphical utility to review and modify permissions from your Flatp
 %doc README.md CHANGELOG.md DOCUMENTATION.md
 %doc %{_datadir}/help/C/flatseal/index.html
 %{_bindir}/com.github.tchx84.Flatseal
-%{_datadir}/appdata/com.github.tchx84.Flatseal.appdata.xml
+%{_datadir}/metainfo/com.github.tchx84.Flatseal.metainfo.xml
 %{_datadir}/glib-2.0/schemas/com.github.tchx84.Flatseal.gschema.xml
 %{_datadir}/applications/com.github.tchx84.Flatseal.desktop
 %{_datadir}/%{name}/
