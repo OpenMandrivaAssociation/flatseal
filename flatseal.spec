@@ -1,5 +1,5 @@
 Name:           flatseal
-Version:        2.4.0
+Version:        2.4.1
 Release:        1
 Summary:        Manage Flatpak permissions
 License:        GPL-3.0-or-later
